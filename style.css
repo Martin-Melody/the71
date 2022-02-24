@@ -150,6 +150,26 @@ Grey #ECF0F1
 /* Icons End */
 
 
+/* Start of Meta Data Section */
+
+.metaDataContainer{
+  background: yellow;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/*  End of Meta Data Section*/
+
+
+
+
+
+
+
+
+
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -158,7 +178,7 @@ Grey #ECF0F1
   width: 100%;
   padding: 3.5em 0;
   background:#2a2d38;
-  height: 700px;
+  height: 100%;
 }
 
 .grey {

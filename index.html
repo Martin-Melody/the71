@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>The7 Free HTML5 Responsive Template | Template Stock</title>
+        <title>Intro to Cloud Computing</title>
         
         
         <!-- CSS -->
@@ -73,6 +73,15 @@
                             </div>
 
                             <script>
+
+
+                                var meta = new AWS.MetadataService();
+
+                                    meta.request("/latest/meta-data/instance-id", function (err, data) {
+                                        console.log(data);
+                                    });
+
+
                                 const wrapper = document.querySelector('.wrapper')
                                 const fileName = document.querySelector('.file-name')
                                 const cancelBtn = document.querySelector('#cancel-btn')
@@ -122,7 +131,9 @@
                                 })
 
                             </script>
-
+                            <div class="metaDataContainer">
+                                    
+                            </div>
 
                                 <!--End of upload-->
                        
